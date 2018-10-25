@@ -1,0 +1,89 @@
+\documentclass[10pt]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+
+\title{IF768 - Teoria dos Grafos}
+\author{Wilton de Barros Araújo Júnior}
+\date{October, 2018}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+A disciplina \textbf{IF768 Teoria dos Grafos} participa da grade curricular do curso de Ciência da Computação como eletiva e possui carga horária semestral de 75h. Atualmente não possui oficialmente outra disciplina como pré-requisito nem como có-requisito, embora seja necessário ter uma boa base em matemática discreta, álgebra, lógica e algoritmo para cursá-la de forma a extrair o máximo de seu conteúdo. Sua grande contribuição para informática é fornecer subsídios para resolução de problemas combinatoriais e ela enquadra-se na seguinte área do conhecimento:\\
+\\
+\begin{tabular}{l l l|l}
+     & GRANDE ÁREA: Ciências Exatas e da Terra.\\
+     & ÁREA: Ciência da Computação.\\
+     & SUBÁREA: Matemática da Computação.\\
+     & ESPECIALIDADE: Otimização Combinatória.\\
+     & \footnotesize{Classificação adotada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).}\\
+\end{tabular}
+\\
+\\
+
+\section{Um pouco de História...}
+Na cidade de Königsberg, antigo território da Prússia, atual Kaliningrado (Rússia), existem 2 ilhas no rio Pregel conectadas entre si e com as margens por 7 pontes. Na época discutia-se sobre a possibilidade de atravessar todas as pontes sem repetir nenhuma. Apenas em 1735, o físico e matemático suiço Leonard Euler provou não ser possível tal feito usando um raciocínio muito simples: transformou os caminhos em linhas e as intersecções em pontos, criando possivelmente o primeiro grafo da história.
+\\
+
+\begin{figure}[h]
+ 
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth, height=5cm]{Solutio.png} 
+\caption{Primeira página.}
+\label{fig:subim1}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth, height=5cm]{Pontes.png}
+\caption{Pontes sobre o rio Pregel.}
+\label{fig:subim2}
+\end{subfigure}
+ 
+\caption{Trabalho apresentado por Leonard Euler na \textbf{the St. Petersburg Academy} em 1735 e tido como o seu mais famoso artigo. É considerada a mais antiga referência publicada em topologia e teoria dos grafos. }
+\label{fig:image2}
+\end{figure}
+
+\newpage
+\section{Relevância e Dificuldades}
+Se pudéssemos resumir a uma só palavra a funcionalidade dos grafos provavelmente ela seria OTIMIZAÇÃO. Ferramenta essencial da otimização combinatória, os grafos contribuem para simplificação de modelos de sistemas em projetos de dimensionamento e alocação de redes, estrutura de dados e algoritmos. Problemas de fluxo máximo, caminho mínimo e emparelhamento máximo podem ser abordados com eficiência usando essa teoria.\\
+
+Uma dificuldade encontrada pelos alunos para o acompanhamento optimum da disciplina está na base matemática que o aluno traz consigo ao matricular-se. É desejável que se tenha razoável conhecimento das disciplinas básicas citadas na introdução deste trabalho que o permitam manipular ferramentas como prova por indução, prova por contradição, lógica computacional, dentre outros.
+
+\section{Ementa da disciplina \cite{2} \cite{1} \cite{disciplina}}
+Grafos;\\
+Subgrafos e grafos orientados;\\
+Florestas e árvores;\\
+Busca em Grafos, conectividade e cortes;\\
+Árvore geradora, distâncias, fluxo em rede e emparelhamento;\\
+Problemas intratáveis.\\
+
+\section{Relação com outras disciplinas:}
+
+\begin{tabular}{ |p{7cm}||p{7cm}|}
+\hline
+|\large{\textsc{Disciplina}}|& |\large{\textsc{Relação}}|\\[0.1ex]
+\hline
+
+IF669 - Introdução à computação & Base matemática para acompanhamento da disciplina.\\
+\hline
+IF673 - Lógica para Computação & Base lógica para acompanhamento da disciplina.\\
+\hline 
+IF767 - Processamento Cadeia Caracteres & Grafo dá suporte.\\
+\hline
+IF767 - Processamento Cadeia Caracteres & Grafo dá suporte.\\
+\hline
+\end{tabular}\\
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
