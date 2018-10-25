@@ -1,0 +1,41 @@
+\documentclass{article}[10pt]
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[Tl]{fontenc}
+
+\title{PROGRAMAÇÃO FUNCIONAL}
+\author{Matheus Marques }
+\date{Outubro de 2018}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+A disciplina de programação funcional tem como objetivo aprofundar o conhecimento sobre programação funcional. Como já é introduzida em outra disciplina obrigatória do curso (IF686), ela aprofunda em programação paralela usando linguagens funcionais, monads e outras linguagens funcionais.
+
+\section{Relevância}
+ Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa. É colocado na entrada a função e seus parâmetros (operações matemáticas utilizadas) e o resultado é fornecido em retorno.  
+
+\section{Relação com outras disciplinas}
+A programação funcional pode ser contrastada com a programação imperativa. Na programação funcional parecem faltar diversas construções frequentemente (embora incorretamente) consideradas essenciais em linguagens imperativas. Por exemplo, numa programação estritamente funcional, não há alocação explícita de memória, nem declaração explícita de variáveis. No entanto, essas operações podem ocorrer automaticamente quando a função é invocada; a alocação de memória ocorre para criar espaço para os parâmetros e para o valor de retorno, e a declaração ocorre para copiar os parâmetros dentro deste espaço recém-alocado e para copiar o valor de retorno de volta para dentro da função que a chama. Ambas as operações podem ocorrer nos pontos de entrada e na saída da função, então efeitos colaterais no cálculo da função são eliminados. Ao não permitir efeitos colaterais em funções, a linguagem oferece transparência referencial. Isso assegura que o resultado da função será o mesmo para um dado conjunto de parâmetros não importando onde, ou quando, seja avaliada. Transparência referencial facilita muito ambas as tarefas de comprovar a correção do programa e automaticamente identificar computações independentes para execução paralela. Em outras palavras por ser usada com um objetivo especifico, que por isso não pode ser aplicada com nenhum outro fim, mas q ainda é uma linguagem de programação q usa das mesmas ferramentas que as outras na compilação em si.  
+
+\begin{table}[!htb]
+\begin{tabular}{|l|p{0.5\textwidth}|}
+\hline
+IF669-introdução a programação & Apresenta assim como ela uma forma de programar, mas com outro paradigma.
+           \\ \hline 
+IF686-Paradigmas de Linguagens de Programação & Tratasse de uma cadeira obrigatória q chega a tratar do mesmo assunto, mas bem menos aprofundadamente. 
+\\ \hline
+\end{tabular}
+\end{table}
+
+\section{Referências}
+
+https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional#Ver_tamb%C3%A9m
+https://cin.ufpe.br/~pet/wiki/Programa%C3%A7%C3%A3o_Funcional(IF708)
+
+\end{document}
