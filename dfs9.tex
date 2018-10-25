@@ -1,0 +1,98 @@
+\documentclass[10pt]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage{geometry}
+\geometry{a4paper}
+
+\usepackage{graphicx}
+\usepackage{subfig}
+
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape}
+
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage[backend=bibtex,style=numeric,autocite=plain,sorting=none]{biblatex}
+\bibliography{dfs9}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{IF677 - Infraestrutura de Software}
+\author{Denílson França da Silva}
+\date{Outubro de 2018}
+
+\begin{document}
+\maketitle
+\section{Introdução}
+
+	Ministrada pelo professor Carlos Ferraz \cite{horarios}\cite{cinwiki-infrasoft}, Infraestrutura de Software tem como pré-requesito a disciplina Introdução à Programação e, com carga horária de 75 horas, é uma das disciplinas obrigatórias do bacharelado em Ciência da Computação \cite{perfilcurricular}.
+		
+	Ela expõe o funcionamento dos sistemas de software mais básicos de computadores e outros conceitos relacionados que, juntos, esclarecem como dados são tratados e organizados em sistemas computacionais, seja em sistemas centralizados ou distribuídos. Esses sistemas de software de menor nível gerenciam os diversos tipos de recursos computacionais e formam a camada que abstrai a complexidade de comunicação com o hardware e que serve como infraestrutura para os aplicativos executados ''acima'' dela \cite{cinwiki-infrasoft}\cite{anotacoes}.
+	
+	\begin{figure}[h]
+	\centering
+	\captionsetup{justification=centering}
+	\includegraphics[width=100px]{200px-Operating_system_placement-pt.png}
+	\caption{''Diagrama com a posição do sistema operacional no uso de um computador'' \\ By Golftheman [CC BY 3.0], via Wikimedia Commons. \cite{diagrama}}
+	\label{fig:diagramaSO}
+	\end{figure}
+	
+	A disciplina faz parte da subárea Sistemas de Computação, da área do conhecimento de Ciência da Computação \cite{cnpq-areas}, e cobre os seguintes temas \cite{perfilcurricular}:
+
+	\begin{multicols}{2}
+	\begin{itemize}
+	\item Estrutura de um Sistema Operacional
+	\item Processos Concorrentes
+	\item Escalonamento
+	\item Gerenciamento de Memória
+	\item Memória Virtual
+	\item Gerenciamento de Disco
+	\item Sistemas de Arquivo
+	\item Proteção e Segurança
+	\item Sistemas Distribuídos
+	\end{itemize}
+	\end{multicols}
+
+\section{Relevância}
+
+	A disciplina mostra o funcionamento dos sistemas de software cujo entendimento é necessário para a criação de sistemas do mesmo tipo e interessantes, pois esses sistemas servem como infraestrutura para softwares que virão a ser criados pelos estudantes de computação. Além disso, ela aborda conceitos importantes para o desenvolvimento de conhecimentos em outras áreas da computação.
+
+\section{Relação com outras disciplinas \cite{cinwiki-infrasoft}\cite{perfilcurricular}}
+
+\begin{table}[h]
+\begin{tabularx}{\linewidth}{|l|X|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Relação com}} \\
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Disciplina}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Infraestrutura de Software}} \\ \hline
+ &  \\
+\multirow{-2}{*}{IF669 - Introdução à Programação} & \multirow{-2}{=}{Pré-requesito para Infraestrutura de Software} \\ \hline
+ &  \\
+ &  \\
+ &  \\
+\multirow{-4}{*}{IF674 - Infraestrutura de Hardware} &  \\ \cline{1-1}
+ &  \\
+ &  \\
+ &  \\
+\multirow{-4}{*}{IF678 - Infraestrutura de Comunicação} & \multirow{-8}{=}{Disciplinas complementares e diretamente relacionadas a Infraestrutura de Software. Segundo a página na CInWiki \cite{cinwiki-infrasoft} juntas as três fornecem um panorama razoavelmente completo sobre o funcionamento de um sistema computacional} \\ \hline
+IF744 - ADM. DE SISTEMAS HETEROGENEOS &  \\ \cline{1-1}
+IF694- BANCO DE DADOS DISTRIB. E MOVEIS &  \\ \cline{1-1}
+IF709- IMPLEMENTACAO SIST. OPERACIONAIS &  \\ \cline{1-1}
+IF711- PROGRAM. CONCORRENTE DISTRIBUIDA &  \\ \cline{1-1}
+IF730- SISTEMA DE TEMPO REAL &  \\ \cline{1-1}
+IF745- SISTEMAS MULTIMIDIA DISTRIBUIDOS &  \\ \cline{1-1}
+IF801- TECNOLOGIAS EDUCACIONAIS &  \\ \cline{1-1}
+IF749- TOPICOS AVANC.SIST.DISTRIBUIDOS & \multirow{-8}{=}{Têm Infraestrutura de Software como pré-requesito} \\ \hline
+\end{tabularx}
+\end{table}
+
+\newpage
+
+\printbibliography
+
+\end{document}
