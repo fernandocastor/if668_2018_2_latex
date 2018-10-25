@@ -1,0 +1,75 @@
+\documentclass[10pt]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+
+\title{IF768 - Teoria dos Grafos}
+\author{Autor - Robson Oliveira Pereira Junior }
+\date{October, 2018}
+
+\begin{document}
+\maketitle
+
+\section{Introdução:}
+
+ A Teoria dos Grafos é uma coleção de problemas. Todos esses problemas são formulados sobre um objeto combinatório conhecido como \textbf{grafo}.
+Esta disciplina é útil em todas as áreas da computação e particularmente importante nas áreas de teoria da computação e otimização combinatória.Ela participa da grade curricular do curso de textbf{Ciência da Computação} como eletiva e possui 75h. Atualmente não exige pré-requisitos embora seja necessária uma base fornecida pelas disciplinas \textit{Matemática Discreta}, \textit{Algoritmos e Estruturas de Dados} e \textit{Lógica para Computação} para uma boa compreensão do conteúdo.\cite{2}\\
+\begin{wrapfigure}{l}{0.25\textwidth}
+\includegraphics[width=0.9\linewidth]{teste} 
+\caption{Grafo}
+\label{fig:subim1}
+\end{wrapfigure}
+%%imagem de domínio publico :
+%% https://commons.wikimedia.org/wiki/File:Complete-edge-coloring.svg
+A preocupação central da teoria dos grafos é a busca por \textit{algoritmos} eficientes que resolvam problemas relacionados aos grafos, buscando otimizar o processo.\\
+Possui utilização em : simplificação de modelos de sistemas para resolução de problemas de otimização, projetos de dimensionamento e alocação de redes, estrutura de dados e algoritmos, problema de fluxo máximo.\\
+A teoria dos grafos nasceu na cidade de Königsberg da antiga Prussia, hoje Kaliningrado, Rússia. Haviam sete pontes interligando as partes da cidade que eram cortadas por vertentes do rio Pregel formando uma ilha na parte central. O desafio consistia em fazer um passeio passando pelas sete pontes, porém, uma vez sobre cada ponte. O matemático suíço Leonhard Euler, em 1736, não só elucidou o problema como acabou criando um modelo que relacionava os caminhos entre os espaços da cidade passando pelas pontes como linhas e as intersecções dessas linhas como pontos, criando um modelo arcaico para um grafo. Posteriormente a essa demonstração de Euler, até o século XIX, se viu apenas  o surgimento de alguns poucos trabalhos. Em 1847, Kirchhoff utilizou modelos de grafos no estudo de circuitos elétricos, disso surgiu a teoria das árvores(classe de grafos). Dez anos após, Cayley seguiria a mesma trilha, embora direcionanto a outras aplicações, dentre as quais se destaca, a enumeração de isômeros dos hidrocarbonetos alifáticos saturados em química orgânica. Essas e muitas outras aplicações posteriores formam hoje a área da matemática na qual \textit{A Teoria dos Grafos} está inserida.\cite{1}
+
+A disciplina está inserida em:\\
+\underline{\emph{Ciência da Computação}} $\rightarrow$ \underline{\emph{Matemática da Computação}} \textbf{:} \underline{\emph{Otimização Combinatória}}.
+
+\begin{figure}[h]
+    \centering %
+    \includegraphics[width=0.5\textwidth]{pontes.jpg}
+    \caption{O problema das pontes de Königsberg}
+    \label{fig:my_label}
+\end{figure}
+%%Imagem de domínio publico
+%%https://commons.wikimedia.org/wiki/File:Pontes_K%C3%B6nigsberg.JPG
+
+\section{Relevância:}
+A teoria dos Grafos é uma cadeira extremamente relevante para problemas combinatoriais e computacionais que necessitam de resoluções rápidas com algoritmos eficientes. Diversos problemas não só da área acadêmica, mas também do cotidiano  podem ser facilmente resolvidos através dos grafos.
+\subsection{Pontos:}
+\begin{itemize}
+    \item Pontos Positivos: \\
+    - É importante na área de otimização.\\
+    - Fornece a base para resolver "trivialmente" inúmeros problemas computacionais e cotidianos.
+    \item Pontos Negativos:\\
+    - Um ponto negativo da cadeira é não exigir cadeiras básicas como pré-requisito. Muitos alunos que forem pagar Teoria dos Grafos sem ter uma base em disciplinas como Matemática Discreta, Lógica para Computação e Algoritmos e Estruturas de Dados acabam sentindo grande dificuldade em acompanhar a disciplina.
+\end{itemize}
+
+
+\section{Relação com outras disciplinas:}
+
+\begin{tabular}{ |p{7cm}||p{7cm}|}
+\hline
+\multicolumn{2}{|c|}{\Large{\textbf{Tabela de Interdisciplinaridade}}} \\
+\hline
+|\large{\textsc{Disciplinas}}|& |\large{\textsc{Relações}}|\\[0.1ex]
+\hline
+
+IF670 - Matemátia Discreta para Computação & Essa cadeira é fundamental para a formação de base de um aluno que pretende cursar Teoria dos Grafos. Com a utilização dos tipos de prova e das provas de proposições, a Matemática Discreta serve o aluno com ferramentas que facilitam o aprendizado da disciplina.\\
+\hline
+IF672 - Algoritmos e Estrutura de Dados & Assim como Matemática Discreta, Algoritmos forma a base oferecendo ferramentas ao aluno que serão utilizadas ao cursar Teoria dos Grafos. Como a compreensão dos algoritmos utilizados na Disciplina\\
+\hline 
+\end{tabular}\\
+
+\bibliographystyle{plain}
+\bibliography{ropj}
+\end{document}
