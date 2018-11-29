@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+
+\title{IF704 - Processamento de Linguagem Natural}
+\author{Erick de Almeida Oliveira Riso}
+\date{25 de outubro de 2018}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+O Processamento de Linguagem Natural (do inglês Natural Language Processing, às vezes também referida como PLN) é uma disciplina eletiva do curso de graduação de Ciência da Computação da Universidade Federal de Pernambuco (UFPE), ministrada pelo professor Hansenclever Bassani\footnote{BASSANI, Hansenclever. \textit{Página oficial da disciplina}. Disponível em: <http://www.cin.ufpe.br/~hfb/pln/index.html>. Acesso em: 23 de outubro de 2018}. É considerada uma subárea da Inteligência Artificial, e tem como objetivo tornar possível a interpretação das línguas humanas naturais pelos sistemas computadorizados. O Processamento de Linguagem Natural incorpora várias técnicas oriundas de disciplinas diferentes, que vão desde a Linguística, através de itens como a semântica, sintaxe e lexicologia, até a Estatística e métodos de aprendizagem de máquina.
+
+\section{Relevância}
+
+A comunicação humana geralmente envolve fatores muito complexos, como contexto e especificidades regionais, e está sujeita à ambiguidades. Os computadores, todavia, geralmente trabalham com dados estruturados e linguagem precisa. Conciliar esse problema é um dos desafios do Processamento de Linguagem Natural.
+Grandes empresas têm dado muita importância ao ramo, já que esta área pode auxiliar a resolução de muitos problemas hodiernos da computação, como a análise de Big Data e o aperfeiçoamento de sistemas de aprendizado de máquina. Muitos analistas apostam, inclusive, que o Processamento de Linguagem Natural seja parte integrante do que virá a ser ``a grande novidade'' da tecnologia da informação.\footnote{DEANGELIS, Stephen F. \textit{The Growing Importance of Natural Language Processing}. Disponível em: <https://www.wired.com/insights/2014/02/growing-importance-natural-language-processing/> (em inglês). Acesso em: 25 de outubro de 2018}
+
+Hoje, muitas aplicações utilizam processamento de linguagem natural, e entre elas podemos destacar:
+\begin{itemize}
+\item Tradução automática de textos
+\item Reconhecimento de voz
+\item Fitragem de SPAM
+\item Reconhecimento ótico de caracteres
+\item Análise de sentimentos
+\item Sumarização de documentos
+\item Correção ortográfica
+\item Chatbots e assistentes pessoais
+\end{itemize}
+\pagebreak
+\subsection{Pontos positivos e negativos}
+Entre os pontos positivos da disciplina, evidencia-se:
+\begin{itemize}
+\item Área desfruta de relevância para grandes empresas
+\item Grande interdisciplinaridade com outras áreas, como Inteligência Artificial, Aprendizado de Máquina, Estatística, Linguística e até mesmo Psicologia
+\item Liberdade para o estudante poder testar e explorar, já que não há apenas uma única forma de se resolver um determinado problema
+\end{itemize}
+Já entre os pontos negativos, é possível salientar:
+\begin{itemize}
+\item Pouco material de estudo disponibilizado em língua portuguesa
+\item Se comparado à outras línguas, como o inglês, o português ainda não tem tanto destaque enquanto objeto de estudo da disciplina, o que se reflete em menos ferramentas para processamento e análise de tal língua.
+\end{itemize}
+
+
+
+
+\section{Relação com outras disciplinas}
+
+\begin{table}[h]
+\begin{tabular}{|p{5cm}|p{9,2cm}|}
+\hline
+\textbf{Disciplinas}                                & \textbf{Relação}                                                                                                                                                                                                                                                                      \\ \hline
+Processamento de Voz (IF759)                        & Um dos ramos do Processamento de Linguagem Natural é o Processamento de Voz. É esperável, portanto, que esta disciplina tenha o IF704 como pré-requisito.                                                                                                                             \\ \hline
+Sistemas Inteligentes (IF684)                       & Uma importante demanda na criação de sistemas inteligentes é a de interagir e tentar compreender o interesse dos usuários. Quando esta tarefa depende da manipulação de linguagem humana, o Processamento de Linguagem Natural pode ser um aliado.                        \\ \hline
+Introdução à Programação (IF669)                    & Visto que o Processamento de Linguagem Natural lida com a criação de programas e sistemas para solucionar problemas de interpretação de linguagem humana, habilidades em programação são imprescindíveis.                                                                             \\ \hline
+Estatística e Probabilidade para Computação (ET586) & A Inteligência Artificial se vale de muitos conceitos da estatística, como a probabilidade, para a tomada de decisões. No caso específico do Processamento de Linguagem Natural, ela pode ser utilizada para definir o contexto de uma expressão em um texto específico, por exemplo. \\ \hline
+Álgebra Vetorial e Linear (MA531)                   & Muitas noções da álgebra linear e vetorial são utilizadas em modelos para processamento de linguagem natural. Por exemplo, o espaço semântico, ferramenta empregada para representar o significado das palavras, recorre-se aos conceitos de espaço vetorial e vetor.              \\ \hline
+\end{tabular}
+\end{table}
+
+\nocite{slp}
+\nocite{iir}
+\nocite{nlpp}
+
+\bibliographystyle{plain}
+\bibliography{eaor}
+
+\end{document}
