@@ -1,0 +1,72 @@
+\documentclass [a4paper, 10pt] {article}
+\usepackage[top=2cm, bottom=2cm , left = 2.5cm, right = 2.5cm]{geometry}
+\usepackage[utf8] {inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[brazil]{babel}
+\usepackage{indentfirst}
+\title{IF796 - Mineração na Web}
+\author{Matheus Marinho De Morais Leça\\ mmml2@cin.ufpe.br}
+\date{2018}
+\begin{document}
+\maketitle 
+\section{Introdução}
+ 
+De forma geral, a mineração na Web pode ser conceituada como a descoberta e análise inteligente de informações úteis da Web\cite{artigo}.
+  Essa ideia foi concebida a partir do desejo de filtrar, ordenar e recuperar informações que estão na World Wide Web\cite{LivroA}.
+
+ As abordagens da Mineração na Web são: \cite{site}
+ \begin{enumerate}
+ \item Mineração de conteúdo;
+ \item Mineração de estrutura;
+ \item Mineração de uso.
+ \begin{figure}[!htb]
+ \centering
+ \includegraphics[scale=1.0]{ic1.jpg}
+ \caption{Diagrama esquematizando a atuação da Mineração da Web }
+ \end{figure}
+\end{enumerate}  
+
+A primeira cuida da informação contida dentro dos documentos da Web, a segunda da informação contida entre os documentos da Web e a última na informação contida na utilização ou interação com a Web\cite{LivroB}. 
+
+Essas são as três categorias que divide a mineração da web. 
+\section{Relevância}
+A Mineração na Web não é já tão recente, pois vem sendo estudada desde meados de 1996, porém sua relevância tem sido gradativamente aumentanda ao passar dos anos. Podemos indicar duas principais razões para isso: \cite{wiki:xxx}
+
+\begin{itemize}
+\item Aumento das transações comerciais na Web, que estimularam o desenvolvimento de técnicas de mineração de uso, pois assim entende-se melhor o perfil de seus usuários, melhorando no marketing e vendas;
+\item O desenvolvimento da Web semântica e da tecnologia dos agentes da informação, onde as técnicas de Mineração na Web são utilizadas. A Web semântica consegue entender as inteligências dos agentes e não apenas o seu comportamento. Assim, serviços da Web poderão ter uma interatividade melhor entre si por meio de uma linguagem comum. A Mineração na Web é crucial para isso, pois ajudará na busca de informações , personalização e talvez até como mecanismo de aprendizado. 
+\end{itemize}
+Realmente o Web Mining, ou Mineração na Web, é uma poderosa ferramenta usada para descobrir padrões da Web, mas esta tecnologia também tem seus pontos negativos, além dos positivos, eles estão a seguir\cite{wiki:xxx}:
+\subsection{Pontos positivos}
+\begin{itemize}
+\item É uma ferramenta poderosa que desperta a atenção de muitas agências governamentais por oferecer uma grande quantidade de dados a fim de vigilância, no caso de uma agência de polícia, e a fim de estatísticas, a fim de certos orgãos governamentais.
+\item Ela também é muito utilizada no e-commerce para se personalizar as propagandas e assim despertar melhor o interesse do consumidor tendo como base seus próprios dados.
+\item Empresas também usam como um meio de estreitar sua relação com o consumidor e agilizar o processo de ajuste em seus produtos para suprir a demanda.
+
+\end{itemize}
+\subsection{Pontos negativos}
+\begin{itemize}
+
+\item A ferramenta em si não tem muitos problemas, mas sim seu mal uso. Denúncias de invasões de privacidade são recorrentes nesse meio justamente quando a extração dos dados não foram feitos com conssentimento.
+\item Outro problema é quando as empresas alegam usar os dados para um determinado fim e usam em outro totalmente diferente, violando o conssentimento do consumidor.
+\item Alguns algorítimos de mineração podem coletar esses dados para fins controversos, como para categorizar em função de orientação sexual, gênero, cor, relegião e etc. Essas práticas podem estar ferindo alguma legislação de direitos humanos.
+\item E outro polêmico ponto é que as empresas que coletam esses dados são as que tem a legal posse delas, mas se caso algum ataque hacker conseguir extrair dos servidores esses dados, é o consumidor que será atingido.
+\end{itemize}
+
+\section{Relação com outras disciplinas}
+A seguir teremos uma tabela relacionando a disciplina de Mineração na Web com outros campos da computação.
+\begin{table}[!htb]
+\begin{tabular}{|l|l|}
+\hline
+IF699- APRENDIZAGEM DE MAQUINA          & \begin{tabular}[c]{@{}l@{}}Com os dados obtidos pela Web Mining, \\ desenvolvedores \\ podem optimizar seus sistemas \\ com base no uso dos usuários.\end{tabular}                                                                                           \\ \hline
+IF706- TOPICOS AVANC.INTELEG.ARTIFICIAL & \begin{tabular}[c]{@{}l@{}}Sistemas de inteligência artificial geralmente \\ precisam de muitos dados para criar \\ um comportamento, então nesse caso\\  é o Web Mining que provê.\end{tabular}                                                             \\ \hline
+IF782- NEGOCIOS ON LINE                 & \begin{tabular}[c]{@{}l@{}}O e-commerce sempre usa do Web Mining \\ para receber dados de comportamento\\  de possíveis compradores para  o melhor\\  redirecionamento de propagandas e também\\  para a optimização da experiência do usuário.\end{tabular} \\ \hline
+IF672- ALGORITMOS E ESTRUTURAS DE DADOS & \begin{tabular}[c]{@{}l@{}}Com os dados dos usuários de possíveis falhas \\ no programa, os desenvolvedores podem usá-los \\ para debugar e melhorar seus algoritmos.\end{tabular}                                                                           \\ \hline
+\end{tabular}
+\end{table}
+
+\bibliographystyle{ieeetr}
+\bibliography{2}
+ \end{document}
